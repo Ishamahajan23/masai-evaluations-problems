@@ -7,19 +7,19 @@ class RouteStrategy{
 class FastestRoute extends RouteStrategy{
     calculateRoute(from,to){
         console.log(`Calculating fastest route from ${from} to ${to}...`);
-        console.log(`Recommended route: NH48 - 280 km - 4 hours`);
+        console.log(`Recommended route: NH48 - 280 km - 4 hours (highway and minimal traffic)`);
     }
 }
 class ScenicRoute extends RouteStrategy{
     calculateRoute(from,to){
          console.log(`Calculating scenic route from ${from} to ${to}...`);
-         console.log(`Recommended route: NH48 - 310 km - 6 hours`);
+         console.log(`Recommended route: NH48 - 310 km - 6 hours (Lake View)`);
     }
 }
 class ShortestDistanceRoute extends RouteStrategy {
   calculateRoute(from, to) {
     console.log(`Calculating shortest route from ${from} to ${to}...`);
-    console.log(`Recommended route: NH48 - 260 km - 3.7 hours`);
+    console.log(`Recommended route: NH48 - 250 km - 3.3 hours`);
   }
 }
 
